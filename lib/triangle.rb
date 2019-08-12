@@ -8,7 +8,7 @@ class Triangle
   end
   
   def kind
-    
+    real_triangle = [(a + b > c), (a + c > b), (b + c > a)]
     if a + b < c || b + c < a || a + c < b
       begin 
         raise TriangleError
