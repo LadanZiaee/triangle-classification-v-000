@@ -11,8 +11,9 @@ class Triangle
     :equilateral, :isosceles. :scalene
     if a + b < c || b + C < a
       begin 
-      raise TriangleErrer 
-      puts ""
+      raise TriangleError
+      rescue TriangleError => error
+      puts message
       
   end 
   
