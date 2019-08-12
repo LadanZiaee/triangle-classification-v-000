@@ -10,7 +10,12 @@ class Triangle
   def kind 
     :equilateral, :isosceles. :scalene
     if a + b < c || b + C < a
-      
+      begin 
+      raise 
       
   end 
+  
+  class TriangelError < StandardError
+    
+    
 end
