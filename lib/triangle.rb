@@ -6,5 +6,5 @@ class Triangle
   
   def kind 
     :equilateral, :isosceles. :scalene
-    if self.new =
+    if self.new = 
 end
