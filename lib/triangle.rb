@@ -7,9 +7,8 @@ class Triangle
     @c = c 
   end
   
-  def kind
-    fake_triangle = [(a + b < c), (a + c < b), (b + c < a)]
-    if fake_triangle
+  def kind 
+    if a + b < c || b + c < a || a + c < b
       begin 
         raise TriangleError
       rescue TriangleError => error
