@@ -9,7 +9,7 @@ class Triangle
   
   def kind
     fake_triangle = [(a + b < c), (a + c < b), (b + c < a)]
-    if [a.b.c].each {|side| side <= 0}
+    if fake_triangle
       begin 
         raise TriangleError
       rescue TriangleError => error
