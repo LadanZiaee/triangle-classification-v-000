@@ -9,7 +9,8 @@ class Triangle
   
   def kind 
     :equilateral, :isosceles. :scalene
-    if self
+    if a + b < c 
+      
       
   end 
 end
