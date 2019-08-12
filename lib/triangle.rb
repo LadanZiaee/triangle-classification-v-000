@@ -27,9 +27,7 @@ class Triangle
   end
   
   class TriangelError < StandardError
-    def message
-      "triangles violating triangle inequality are illegal"
-    end 
+    
   end
   
 end
