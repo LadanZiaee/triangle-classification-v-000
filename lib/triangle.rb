@@ -7,7 +7,8 @@ class Triangle
     @c = c 
   end
   
-  def kind 
+  def kind
+    
     if a + b < c || b + c < a || a + c < b
       begin 
         raise TriangleError
