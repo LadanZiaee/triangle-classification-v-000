@@ -8,7 +8,7 @@ class Triangle
   end
   
   def kind 
-    if a + b < c || b + c < a || a + c < b 
+    if a + b < c || b + c < a || a + c < b || a < 1 || b < 1 || c < 1 
       begin 
         raise TriangleError
       rescue TriangleError => error
