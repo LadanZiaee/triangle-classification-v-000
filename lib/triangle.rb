@@ -11,7 +11,8 @@ class Triangle
     :equilateral, :isosceles. :scalene
     if a + b < c || b + C < a
       begin 
-      raise 
+      raise TriangleErrer 
+      puts "triangles violating triangle inequality are illegal"
       
   end 
   
