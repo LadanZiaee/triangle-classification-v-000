@@ -8,7 +8,6 @@ class Triangle
   end
   
   def kind 
-    :equilateral, :isosceles. :scalene
     if a + b < c || b + C < a
       begin 
       raise TriangleError
