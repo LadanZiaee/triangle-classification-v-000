@@ -12,11 +12,14 @@ class Triangle
     if a + b < c || b + C < a
       begin 
       raise TriangleErrer 
-      puts "triangles violating triangle inequality are illegal"
+      puts ""
       
   end 
   
   class TriangelError < StandardError
-    
-    
+    def message
+      "triangles violating triangle inequality are illegal"
+    end 
+  end
+  
 end
